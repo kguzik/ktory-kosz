@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ktory-kosz/static/css/main.3aea231a.chunk.css",
+    "main.js": "/ktory-kosz/static/js/main.0581e1fc.chunk.js",
+    "main.js.map": "/ktory-kosz/static/js/main.0581e1fc.chunk.js.map",
+    "runtime-main.js": "/ktory-kosz/static/js/runtime-main.ee3ababd.js",
+    "runtime-main.js.map": "/ktory-kosz/static/js/runtime-main.ee3ababd.js.map",
+    "static/js/2.da8f20ed.chunk.js": "/ktory-kosz/static/js/2.da8f20ed.chunk.js",
+    "static/js/2.da8f20ed.chunk.js.map": "/ktory-kosz/static/js/2.da8f20ed.chunk.js.map",
+    "index.html": "/ktory-kosz/index.html",
+    "precache-manifest.d682a3b6a04ec3359e51ce42bb75d804.js": "/ktory-kosz/precache-manifest.d682a3b6a04ec3359e51ce42bb75d804.js",
+    "service-worker.js": "/ktory-kosz/service-worker.js",
+    "static/css/main.3aea231a.chunk.css.map": "/ktory-kosz/static/css/main.3aea231a.chunk.css.map",
+    "static/js/2.da8f20ed.chunk.js.LICENSE.txt": "/ktory-kosz/static/js/2.da8f20ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee3ababd.js",
+    "static/js/2.da8f20ed.chunk.js",
+    "static/css/main.3aea231a.chunk.css",
+    "static/js/main.0581e1fc.chunk.js"
+  ]
+}
