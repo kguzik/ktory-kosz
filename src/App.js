@@ -1,101 +1,49 @@
 import React from 'react';
 import './App.css';
+import productsData from './products.json';
+import ProductsList from './components/ProductList'
 
-const allUsers = [
-  {
-      text: 'Worek papierowy',
-      basket: 'Papier',
-      color: 'blue'
-  },
-  {
-      text: 'Szklane opakowanie po kosmetykach',
-      basket: 'Szkło',
-      color: 'green'
-  },
-  {
-      text: 'Obierki',
-      basket: 'Odpadki biodegradowalne',
-      color: 'brown'
-  },
-  {
-      text: 'Puszka po konserwach',
-      basket: 'Metale i tworzywa sztuczne',
-      color: 'yellow'
-  },
-  {
-      text: 'Gazeta, czasopismo',
-      basket: 'Papier',
-      color: 'blue'
-  },
-  {
-      text: 'Szklane butelki',
-      basket: 'Szkło',
-      color: 'green'
-  },
-  {
-      text: 'Gałęzie drzew i krzewów',
-      basket: 'Odpadki biodegradowalne',
-      color: 'brown'
-  },
-  {
-      text: 'Plastikowa torba',
-      basket: 'Metale i tworzywa sztuczne',
-      color: 'yellow'
-  },
-];
+const allProducts = productsData;
 
 class App extends React.Component {
   constructor(){
-      super();
-
-      this.state = {
-          filteredUsers: allUsers
-      }
+    super();
+    this.state = {
+      filteredProducts: allProducts
+    }
   }
 
-  filterUsers(e){
-      const text = e.currentTarget.value;
-      //const filteredUsers = this.getFilteredUsersForText(text);
-      this.getFilteredUsersForText(text).then(filteredUsers => {
-          this.setState({
-              filteredUsers
-          });
-      })
+  filterProducts(e){
+    const text = e.currentTarget.value;
+    this.getFilteredProductsForText(text).then(filteredProducts => {
+      this.setState({
+            filteredProducts
+      });
+    })
   }
 
-  getFilteredUsersForText(text) {
-  return new Promise(resolve => {
+  getFilteredProductsForText(text) {
+    return new Promise(resolve => {
       const time = (Math.random() + 1) * 250;
       setTimeout(() => {
-      const filteredUsers = allUsers.filter(user => user.text.toLowerCase().includes(text.toLowerCase()));
-      resolve(filteredUsers);
+          const filteredProducts = allProducts.filter(product => product.text.toLowerCase().includes(text.toLowerCase()));
+          resolve(filteredProducts);
       }, time) ;
-  });
+    });
   }
-  render(){
-      return (
-          <div class="container-fluid p-0 m-0">
-              <div class="input-container">
-                  <p>Co chcesz wyrzucić?</p>
-                  <input onInput={this.filterUsers.bind(this)} placeholder="Wpisz produkt"/>
-              </div>
-              <UsersList users={this.state.filteredUsers}/>
-          </div>
-      );
-  }
-}
 
-const UsersList = ({users}) => {
-  if(users.length > 0){
-      return (
-          <ul class="row p-0 m-0">
-              {users.map(user => <li class="col-12 col-sm-6 col-lg-4" data-color={user.color} key={user.text}>{user.text}<span>&#8681;</span><span>{user.basket}</span></li>)}
-          </ul>
-      );
+  render(){
+    return (
+      <div className="container-fluid p-0 m-0">
+        <div className="search">
+          <h2 className="search__title">Nie wiesz do którego kosza wyrzucić odpad?</h2>
+          <p className="search__info">Wpisz w wyszukiwarkę produkt i dowiedz się gdzie należy go wyrzucić.</p>
+          <input className="search__input" onInput={this.filterProducts.bind(this)} placeholder="Wpisz produkt"/>
+        </div>
+        <ProductsList products={this.state.filteredProducts}/>
+      </div>
+    );
   }
-  return (
-      <p class="text-center p-4 none-result">Brak wyników, spróbuj wyszukać ponownie.</p>
-  );
 }
 
 export default App;
