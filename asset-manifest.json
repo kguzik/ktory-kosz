@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ktory-kosz/static/css/main.3aea231a.chunk.css",
-    "main.js": "/ktory-kosz/static/js/main.0581e1fc.chunk.js",
-    "main.js.map": "/ktory-kosz/static/js/main.0581e1fc.chunk.js.map",
+    "main.css": "/ktory-kosz/static/css/main.23abda48.chunk.css",
+    "main.js": "/ktory-kosz/static/js/main.813d2d4e.chunk.js",
+    "main.js.map": "/ktory-kosz/static/js/main.813d2d4e.chunk.js.map",
     "runtime-main.js": "/ktory-kosz/static/js/runtime-main.ee3ababd.js",
     "runtime-main.js.map": "/ktory-kosz/static/js/runtime-main.ee3ababd.js.map",
-    "static/js/2.da8f20ed.chunk.js": "/ktory-kosz/static/js/2.da8f20ed.chunk.js",
-    "static/js/2.da8f20ed.chunk.js.map": "/ktory-kosz/static/js/2.da8f20ed.chunk.js.map",
+    "static/js/2.cdd61240.chunk.js": "/ktory-kosz/static/js/2.cdd61240.chunk.js",
+    "static/js/2.cdd61240.chunk.js.map": "/ktory-kosz/static/js/2.cdd61240.chunk.js.map",
     "index.html": "/ktory-kosz/index.html",
-    "precache-manifest.d682a3b6a04ec3359e51ce42bb75d804.js": "/ktory-kosz/precache-manifest.d682a3b6a04ec3359e51ce42bb75d804.js",
+    "precache-manifest.0d612658063caf7605862db38b4d2e58.js": "/ktory-kosz/precache-manifest.0d612658063caf7605862db38b4d2e58.js",
     "service-worker.js": "/ktory-kosz/service-worker.js",
-    "static/css/main.3aea231a.chunk.css.map": "/ktory-kosz/static/css/main.3aea231a.chunk.css.map",
-    "static/js/2.da8f20ed.chunk.js.LICENSE.txt": "/ktory-kosz/static/js/2.da8f20ed.chunk.js.LICENSE.txt"
+    "static/css/main.23abda48.chunk.css.map": "/ktory-kosz/static/css/main.23abda48.chunk.css.map",
+    "static/js/2.cdd61240.chunk.js.LICENSE.txt": "/ktory-kosz/static/js/2.cdd61240.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ee3ababd.js",
-    "static/js/2.da8f20ed.chunk.js",
-    "static/css/main.3aea231a.chunk.css",
-    "static/js/main.0581e1fc.chunk.js"
+    "static/js/2.cdd61240.chunk.js",
+    "static/css/main.23abda48.chunk.css",
+    "static/js/main.813d2d4e.chunk.js"
   ]
 }
