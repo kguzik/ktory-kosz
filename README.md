@@ -1,4 +1,4 @@
-Live version: https://github.com/kguzik/ktory-kosz
+Live version: https://kguzik.github.io/ktory-kosz/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
