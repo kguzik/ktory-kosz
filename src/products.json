@@ -1,0 +1,181 @@
+[
+    {
+        "text": "Worek papierowy",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Szklane opakowanie po kosmetykach",
+        "basket": "Szkło",
+        "color": "green"
+    },
+    {
+        "text": "Obierki",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Puszka po konserwach",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Gazeta, czasopismo",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Szklana butelka po napojach lub żywności",
+        "basket": "Szkło",
+        "color": "green"
+    },
+    {
+        "text": "Gałęzie drzew i krzewów",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Plastikowa torba",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Papier szkolny i biurowy",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Odkręcone i zgniecione plastikowe butelki",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Nakrętki",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Resztki jedzenia",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Plastikowe opakowania po produktach spożywczych",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Szklane słoiki po napojach i żywności",
+        "basket": "Szkło",
+        "color": "green"
+    },
+    {
+        "text": "Torba papierowa",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Karton po mleku lub sokach",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Odpadki owocowe",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Opakowania z papieru, karton, tektura",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Opakowania po środkach czystości (np. proszkach do prania)",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Szklane butelki po napojach alkoholowych",
+        "basket": "Szkło",
+        "color": "green"
+    },
+    {
+        "text": "Katalogi, ulotki, prospekty",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Opakowania po kosmetykach (np. szamponach, paście do zębów)",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Plastikowe worki, reklamówki, inne folie",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Niezaimpregnowane drewno",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Aluminiowe puszki po napojach i sokach",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Folia aluminiowa",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Odpadki warzywne",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Metale kolorowe",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Zadrukowane kartki",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Kapsle, zakrętki po słoikach",
+        "basket": "Metale i tworzywa sztuczne",
+        "color": "yellow"
+    },
+    {
+        "text": "Szklane butelki po olejach roślinnych",
+        "basket": "Szkło",
+        "color": "green"
+    },
+    {
+        "text": "Zeszyt, książka",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Skoszona trawa, liście, kwiaty",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    },
+    {
+        "text": "Papier pakowy",
+        "basket": "Papier",
+        "color": "blue"
+    },
+    {
+        "text": "Trociny i korę drzew",
+        "basket": "Odpadki biodegradowalne",
+        "color": "brown"
+    }
+]
+
+
+
+
